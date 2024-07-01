@@ -1,0 +1,56 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    background: #000000;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+.image_label{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold ;
+    color: #d7d7d7;
+    vertical-align: center;
+    margin-top: -10px;
+}
+img{
+    border-radius: 10px;
+}
+/*.image_division{
+    margin-bottom: 30px;
+}*/
+
+.ul_points{
+
+    background: #a3ea53;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.align_centre{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 700px){
+    .box{
+        width: 70%;
+    }
+    .popup{
+        width: 70%;
+    }
+}
+
+
+
+

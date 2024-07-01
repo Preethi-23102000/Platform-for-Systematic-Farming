@@ -1,0 +1,19 @@
+.btn{
+    background: white;
+    color: #00a849;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    font-family: "Yu Gothic Medium", serif;
+    margin-top: 6%;
+    font-weight: bold;
+
+}
+
+.btn:hover{
+    background: #000000;
+    color: #06D85F
+}

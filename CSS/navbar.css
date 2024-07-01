@@ -1,0 +1,73 @@
+*{
+    padding : 0 ;
+    margin:0 ;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.bg_image1{
+    font-family: "Yu Gothic Medium", serif;
+    background-image: url("../Images/Background/1_Background_Image.jpg") ;
+    background-position: center;
+    position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    opacity: 0.5;
+    background-size: cover;
+    z-index:-1;
+
+}
+
+.bg_image2{
+    font-family: "Yu Gothic Medium", serif;
+    background-image: url("../Images/Background/2_Instrument_Background_Image.jpg") ;
+    background-position: center;
+    position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    opacity: 0.6;
+    background-size: cover;
+    z-index:-1;
+
+}
+ .bg_img{
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+ }
+
+nav{
+    background: #3d3d3d;
+    height: 45px;
+    width: 100%;
+}
+label.logo{
+    color: #a3ea53;
+    font-size: 30px;
+    margin-left: 12px;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 43px;
+    margin : 0 5px ;
+}
+nav ul li a{
+    color: #a3ea53;
+}
+/*.container{
+    width: 60%;
+    display: inline-block;
+    box-shadow:-2px 0px 33px 0px rgba(0,0,0,0.75);
+}*/
+
